@@ -1,0 +1,118 @@
+// Xin Wang homepage layer. All selectors stay scoped to .xinwang-page.
+$xw-ink: #132124;
+$xw-muted: #6a7a78;
+$xw-paper: #f8f6f0;
+$xw-line: rgba(19, 33, 36, .14);
+$xw-teal: #0e8d82;
+$xw-orange: #e67f46;
+
+html[data-language="zh"] [data-lang="en"] { display: none !important; }
+html:not([data-language="zh"]) [data-lang="zh"] { display: none !important; }
+
+.xinwang-page {
+  --xw-ink: #{$xw-ink};
+  --xw-muted: #{$xw-muted};
+  --xw-paper: #{$xw-paper};
+  --xw-line: #{$xw-line};
+  --xw-teal: #{$xw-teal};
+  --xw-orange: #{$xw-orange};
+  color: $xw-ink;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 1.5rem 0 4rem;
+  font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  background-image: linear-gradient(rgba(19, 33, 36, .025) 1px, transparent 1px), linear-gradient(90deg, rgba(19, 33, 36, .025) 1px, transparent 1px);
+  background-size: 24px 24px;
+
+  a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: .18em; }
+  a:hover { color: $xw-teal; }
+  h1, h2, p { margin-top: 0; }
+  h1, h2 { letter-spacing: -.035em; }
+
+  .xinwang-hero { padding: 1.25rem 0 2.25rem; border-bottom: 1px solid $xw-line; }
+  .xinwang-hero__topline { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-bottom: 4rem; }
+  .xinwang-eyebrow, .xinwang-section__label, .xinwang-card-index { font-size: .72rem; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+  .xinwang-eyebrow { color: $xw-teal; }
+  .xinwang-language { display: flex; align-items: center; gap: .45rem; color: $xw-muted; font-size: .76rem; }
+  .lang-toggle { border: 0; padding: .2rem .35rem; color: $xw-muted; background: transparent; cursor: pointer; font: inherit; font-weight: 700; }
+  .lang-toggle[aria-pressed="true"] { color: $xw-ink; text-decoration: underline; text-decoration-color: $xw-orange; text-decoration-thickness: 2px; text-underline-offset: .35em; }
+  .lang-toggle:focus-visible, .xinwang-page a:focus-visible { outline: 3px solid rgba(14, 141, 130, .35); outline-offset: 4px; border-radius: 3px; }
+  .xinwang-hero__grid { display: grid; gap: 2.25rem; grid-template-columns: minmax(0, 1fr); }
+  .xinwang-kicker { margin-bottom: .9rem; color: $xw-teal; font-size: .8rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+  h1 { margin-bottom: 1rem; font-size: clamp(3.2rem, 10vw, 7.3rem); line-height: .95; font-weight: 800; }
+  h1 span { color: $xw-orange; font-size: .5em; font-weight: 500; white-space: nowrap; }
+  .xinwang-lede { max-width: 710px; margin-bottom: 1.5rem; color: $xw-muted; font-size: clamp(1.05rem, 2.4vw, 1.35rem); line-height: 1.55; }
+  .xinwang-status { display: inline-flex; align-items: center; gap: .55rem; padding: .45rem .8rem; border: 1px solid rgba(14, 141, 130, .28); border-radius: 999px; color: $xw-teal; font-size: .78rem; font-weight: 750; }
+  .xinwang-status__dot { width: .48rem; height: .48rem; border-radius: 50%; background: $xw-teal; box-shadow: 0 0 0 .25rem rgba(14, 141, 130, .12); }
+  .xinwang-hero__aside { display: flex; align-items: center; gap: 1rem; color: $xw-muted; font-size: .82rem; }
+  .xinwang-hero__aside p { margin: 0; }
+  .xinwang-mark { display: grid; place-items: center; width: 82px; height: 82px; border: 1px solid $xw-ink; border-radius: 50%; color: $xw-ink; font-size: 1.1rem; font-weight: 900; line-height: .9; letter-spacing: .05em; }
+  .xinwang-mark span { color: $xw-orange; }
+  .xinwang-quicklinks { display: flex; flex-wrap: wrap; gap: .6rem 1.25rem; margin-top: 2.6rem; font-size: .82rem; font-weight: 750; }
+  .xinwang-quicklinks a { text-decoration: none; }
+  .xinwang-quicklinks span { color: $xw-orange; }
+
+  .xinwang-section { padding: 4.2rem 0 0; scroll-margin-top: 5rem; }
+  .xinwang-section__label { display: flex; align-items: baseline; gap: .8rem; margin-bottom: 1.45rem; color: $xw-teal; }
+  .xinwang-section__label > span:first-child { color: $xw-orange; font-size: .85rem; }
+  .xinwang-section__intro { max-width: 620px; margin-bottom: 1.9rem; color: $xw-muted; font-size: 1.15rem; }
+  .xinwang-section__intro p { margin-bottom: 0; }
+  .xinwang-focus-grid, .xinwang-project-grid { display: grid; gap: 1rem; grid-template-columns: 1fr; }
+  .xinwang-focus-card, .xinwang-project-card { padding: 1.3rem 1.35rem 1.4rem; border: 1px solid $xw-line; background: rgba(248, 246, 240, .66); transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease; }
+  .xinwang-focus-card:hover, .xinwang-project-card:hover { border-color: rgba(14, 141, 130, .48); box-shadow: 6px 6px 0 rgba(230, 127, 70, .14); transform: translate(-2px, -2px); }
+  .xinwang-card-index { display: block; margin-bottom: 1.7rem; color: $xw-orange; }
+  .xinwang-focus-card h2, .xinwang-project-card h2 { margin-bottom: .65rem; font-size: 1.15rem; line-height: 1.25; }
+  .xinwang-focus-card p, .xinwang-project-card p { margin-bottom: 1rem; color: $xw-muted; font-size: .92rem; line-height: 1.6; }
+  .xinwang-tags { display: flex; flex-wrap: wrap; gap: .35rem; }
+  .xinwang-tags span { padding: .15rem .5rem; border-radius: 999px; color: $xw-teal; background: rgba(14, 141, 130, .09); font-size: .68rem; font-weight: 750; }
+  .xinwang-tags--large { gap: .5rem; }
+  .xinwang-tags--large span { padding: .35rem .7rem; font-size: .76rem; }
+
+  .xinwang-timeline { border-top: 1px solid $xw-line; }
+  .xinwang-timeline__item { display: grid; grid-template-columns: 1fr; gap: .7rem; padding: 1.35rem 0; border-bottom: 1px solid $xw-line; }
+  .xinwang-timeline__date { color: $xw-orange; font-size: .74rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+  .xinwang-timeline__item h2 { margin-bottom: .35rem; font-size: 1.15rem; }
+  .xinwang-timeline__item h2 em { color: $xw-muted; font-size: .8em; font-style: normal; font-weight: 500; }
+  .xinwang-timeline__item p { max-width: 690px; margin-bottom: 0; color: $xw-muted; font-size: .92rem; }
+
+  .xinwang-project-card__meta { display: flex; justify-content: space-between; gap: .5rem; margin-bottom: 1.45rem; color: $xw-muted; font-size: .68rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+  .xinwang-project-card__meta span:first-child { color: $xw-orange; }
+  .xinwang-project-card h2 a { text-decoration-color: rgba(14, 141, 130, .38); }
+  .xinwang-project-card--wide { grid-column: 1 / -1; }
+
+  .xinwang-section--split { border-top: 1px solid $xw-line; }
+  .xinwang-columns { display: grid; gap: 1.8rem; grid-template-columns: 1fr; }
+  .xinwang-list { border-top: 1px solid $xw-line; }
+  .xinwang-list__item { display: flex; flex-direction: column; gap: .1rem; padding: .85rem 0; border-bottom: 1px solid $xw-line; }
+  .xinwang-list__item strong { color: $xw-orange; font-size: .73rem; letter-spacing: .07em; text-transform: uppercase; }
+  .xinwang-list__item span { font-size: .9rem; }
+
+  .xinwang-targets { display: grid; gap: 1.5rem; padding: 1.5rem; border: 1px solid rgba(14, 141, 130, .28); background: rgba(14, 141, 130, .05); }
+  .xinwang-targets__lead { max-width: 650px; margin-bottom: 1.1rem; font-size: 1.1rem; }
+  .xinwang-target-link { display: flex; justify-content: space-between; gap: 1.5rem; align-items: center; padding-top: 1.2rem; border-top: 1px solid rgba(14, 141, 130, .2); color: $xw-teal; font-size: .86rem; font-weight: 800; text-decoration: none; }
+  .xinwang-target-link span:last-child { color: $xw-orange; font-size: 1.2rem; }
+
+  .xinwang-footer { display: flex; flex-direction: column; gap: 1.5rem; margin-top: 5rem; padding-top: 1.5rem; border-top: 1px solid $xw-ink; }
+  .xinwang-footer h2 { max-width: 520px; margin: .55rem 0 0; font-size: clamp(1.6rem, 4vw, 2.6rem); line-height: 1.1; }
+  .xinwang-footer__links { display: flex; flex-wrap: wrap; gap: .5rem 1rem; color: $xw-teal; font-size: .82rem; font-weight: 750; }
+  .xinwang-footer__links a { text-decoration: none; }
+
+  @media screen and (min-width: 700px) {
+    padding-top: 2.2rem;
+    .xinwang-hero__grid { grid-template-columns: minmax(0, 1fr) 180px; align-items: end; }
+    .xinwang-hero__aside { align-items: flex-end; flex-direction: column; text-align: right; }
+    .xinwang-focus-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .xinwang-project-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .xinwang-timeline__item { grid-template-columns: 155px minmax(0, 1fr); gap: 1.5rem; }
+    .xinwang-columns { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .xinwang-targets { grid-template-columns: minmax(0, 1fr) 230px; align-items: end; }
+    .xinwang-target-link { align-self: stretch; }
+    .xinwang-footer { flex-direction: row; justify-content: space-between; align-items: end; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .xinwang-focus-card, .xinwang-project-card { transition: none; }
+  }
+}
