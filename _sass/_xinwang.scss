@@ -230,7 +230,9 @@ body.xinwang-body {
   .xw-about-grid { grid-template-columns: 1fr; gap: 2rem; }
   .xw-recognition-grid { grid-template-columns: 1fr; }
   .xw-recognition-card--feature { grid-column: auto; }
-  .xw-atmo-badge { opacity: .68; transform: scale(.78); }
+  .xw-ocean { opacity: .3; }
+  .xw-atmo-badge { opacity: .22; transform: scale(.68); }
+  .xw-atmo-tree, .xw-atmo-sim { display: none; }
   .xw-atmo-molecule { top: 18%; right: -2%; }
   .xw-atmo-tree { top: 43%; left: -3%; }
   .xw-atmo-robot { top: 70%; right: -3%; }
