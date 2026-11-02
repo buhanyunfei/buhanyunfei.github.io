@@ -219,6 +219,8 @@ body.xinwang-body {
   .xw-content { padding: 3rem 0 2rem; }
   .xw-recognition-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .xw-recognition-card--feature { grid-column: auto; }
+  .xw-atmo-badge { opacity: .34; transform: scale(.82); }
+  .xw-atmo-tree, .xw-atmo-sim { display: none; }
 }
 
 @media screen and (max-width: 620px) {
