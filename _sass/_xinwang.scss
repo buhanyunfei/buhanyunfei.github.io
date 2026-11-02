@@ -65,17 +65,19 @@ body.xinwang-body {
   pointer-events: none;
 }
 
-.xw-ocean { position: fixed; inset: 0; z-index: 0; overflow: hidden; pointer-events: none; opacity: .72; }
-.xw-ocean canvas { display: block; width: 100%; height: 100%; }
+.xw-ocean { position: fixed; inset: 0; z-index: 0; overflow: hidden; pointer-events: none; opacity: .86; }
+.xw-ocean canvas { display: block; width: 100%; height: 100%; font-family: var(--xw-mono); }
 .xw-research-atmosphere { position: fixed; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; }
-.xw-atmo-icon { position: absolute; display: block; width: 58px; height: 58px; color: rgba(23, 77, 125, .17); animation: xw-float 11s ease-in-out infinite; }
-.xw-atmo-icon svg { display: block; width: 100%; height: 100%; fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.4; }
-.xw-atmo-molecule { top: 18%; right: 12%; animation-delay: -2s; transform: rotate(11deg); }
-.xw-atmo-tree { top: 43%; left: 38%; width: 48px; height: 48px; animation-delay: -6s; }
-.xw-atmo-robot { top: 70%; right: 8%; width: 54px; height: 54px; color: rgba(155, 114, 182, .15); animation-delay: -4s; }
-.xw-atmo-sim { top: 61%; left: 51%; width: 64px; height: 64px; color: rgba(56, 120, 201, .14); animation-delay: -8s; }
-.xw-atmo-reason { top: 12%; left: 42%; width: 50px; height: 50px; color: rgba(221, 146, 184, .2); animation-delay: -1s; }
-.xw-atmo-3d { top: 84%; left: 44%; width: 52px; height: 52px; animation-delay: -5s; }
+.xw-atmo-badge { position: absolute; display: inline-flex; align-items: center; gap: .55rem; padding: .5rem .72rem .5rem .55rem; border: 1px solid rgba(23, 41, 70, .16); border-radius: 999px; background: rgba(244, 247, 251, .72); box-shadow: 0 8px 22px rgba(23, 41, 70, .08); color: var(--xw-blue); font-family: var(--xw-mono); font-size: .56rem; letter-spacing: .08em; line-height: 1.05; backdrop-filter: blur(8px); animation: xw-float 11s ease-in-out infinite; }
+.xw-atmo-badge svg { display: block; width: 30px; height: 30px; flex: 0 0 auto; fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2.2; }
+.xw-atmo-badge span { display: grid; gap: .12rem; white-space: nowrap; }
+.xw-atmo-badge b { color: var(--xw-ink); font-family: var(--xw-sans); font-size: .67rem; font-weight: 650; letter-spacing: .02em; }
+.xw-atmo-molecule { top: 17%; right: 11%; color: #4c7fc5; animation-delay: -2s; transform: rotate(8deg); }
+.xw-atmo-tree { top: 42%; left: 35%; color: #4c9b86; animation-delay: -6s; }
+.xw-atmo-robot { top: 68%; right: 7%; color: #9b72b6; animation-delay: -4s; }
+.xw-atmo-sim { top: 58%; left: 51%; color: #3878c9; animation-delay: -8s; }
+.xw-atmo-reason { top: 12%; left: 43%; color: #c86c9e; animation-delay: -1s; }
+.xw-atmo-3d { top: 83%; left: 44%; color: #4e8ea6; animation-delay: -5s; }
 
 @keyframes xw-float { 0%, 100% { margin-top: 0; } 50% { margin-top: -13px; } }
 
@@ -156,20 +158,22 @@ body.xinwang-body {
 .xw-fact strong { color: var(--xw-ink); font-family: var(--xw-serif); font-size: 1.02rem; font-weight: 600; }
 .xw-fact-label { margin-bottom: .25rem; color: var(--xw-cyan); font-size: .62rem; letter-spacing: .11em; }
 
-.xw-community-lede { max-width: 58ch; margin: -.6rem 0 1.6rem; color: var(--xw-muted); font-size: .95rem; }
-.xw-recognition-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .75rem; }
-.xw-recognition-card { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: .8rem; min-height: 76px; padding: .8rem .9rem; border: 1px solid var(--xw-line); background: rgba(255, 255, 255, .48); color: var(--xw-ink); text-decoration: none; transition: transform .24s ease, border-color .24s ease, box-shadow .24s ease; }
+.xw-community-section { position: relative; }
+.xw-community-section::before { content: "RECOGNITION / 社区身份"; display: block; margin-bottom: .6rem; color: var(--xw-cyan); font-family: var(--xw-mono); font-size: .62rem; letter-spacing: .14em; }
+.xw-community-lede { max-width: 58ch; margin: .2rem 0 1.6rem; color: var(--xw-muted); font-size: .95rem; }
+.xw-recognition-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .85rem; }
+.xw-recognition-card { position: relative; display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: .8rem; min-height: 106px; padding: 1rem; border: 1px solid rgba(23, 41, 70, .17); background: rgba(255, 255, 255, .62); color: var(--xw-ink); text-decoration: none; transition: transform .24s ease, border-color .24s ease, box-shadow .24s ease; }
 .xw-recognition-card:hover { border-color: rgba(56, 120, 201, .42); box-shadow: 0 10px 22px rgba(23, 41, 70, .1); transform: translateY(-3px); }
-.xw-recognition-card--feature { grid-column: 1 / -1; background: linear-gradient(100deg, rgba(255, 255, 255, .72), rgba(221, 146, 184, .12)); }
-.xw-community-mark { display: grid; place-items: center; width: 40px; height: 40px; border-radius: 12px; color: white; font-family: var(--xw-mono); font-size: .66rem; font-weight: 700; letter-spacing: -.04em; }
+.xw-recognition-card--feature { min-height: 122px; background: linear-gradient(100deg, rgba(255, 255, 255, .82), rgba(221, 146, 184, .16)); }
+.xw-community-mark { display: grid; place-items: center; width: 48px; height: 48px; border-radius: 14px; color: white; font-family: var(--xw-mono); font-size: .7rem; font-weight: 700; letter-spacing: -.04em; box-shadow: 0 7px 15px rgba(23, 41, 70, .12); }
 .xw-mark-tencent { background: linear-gradient(135deg, #3454d1, #64bfd0); font-family: "LXGW WenKai", var(--xw-sans); font-size: .72rem; }
 .xw-mark-datawhale { background: #2a9d86; }
 .xw-mark-openi { background: #eb9c61; font-family: "LXGW WenKai", var(--xw-sans); font-size: .62rem; }
 .xw-mark-paddle { background: #e34b4b; font-size: 1.1rem; }
 .xw-recognition-copy { display: grid; gap: .12rem; min-width: 0; }
-.xw-recognition-copy strong { overflow: hidden; color: var(--xw-ink); font-family: var(--xw-serif); font-size: .95rem; font-weight: 600; text-overflow: ellipsis; white-space: nowrap; }
+.xw-recognition-copy strong { color: var(--xw-ink); font-family: var(--xw-serif); font-size: .98rem; font-weight: 650; line-height: 1.2; }
 .xw-recognition-copy small { color: var(--xw-muted); font-family: var(--xw-mono); font-size: .63rem; }
-.xw-recognition-arrow { color: var(--xw-cyan); font-size: 1rem; }
+.xw-recognition-arrow { position: absolute; top: .65rem; right: .75rem; color: var(--xw-cyan); font-size: 1rem; }
 
 .xw-research-list, .xw-experience-list, .xw-work-list { border-top: 1px solid var(--xw-line); }
 .xw-research-row, .xw-experience-row, .xw-work-row { display: grid; grid-template-columns: 2.5rem minmax(0, 1fr) auto; gap: 1rem; padding: 1.2rem 0; border-bottom: 1px solid var(--xw-line); transition: padding .25s ease, background .25s ease; }
@@ -215,6 +219,8 @@ body.xinwang-body {
   .xw-sidebar-bottom { margin-top: 2rem; }
   .xw-nav { flex-direction: row; flex-wrap: wrap; gap: .2rem 1.4rem; margin-top: 2rem; }
   .xw-content { padding: 3rem 0 2rem; }
+  .xw-recognition-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .xw-recognition-card--feature { grid-column: auto; }
 }
 
 @media screen and (max-width: 620px) {
@@ -226,7 +232,13 @@ body.xinwang-body {
   .xw-about-grid { grid-template-columns: 1fr; gap: 2rem; }
   .xw-recognition-grid { grid-template-columns: 1fr; }
   .xw-recognition-card--feature { grid-column: auto; }
-  .xw-atmo-icon { opacity: .55; transform: scale(.75); }
+  .xw-atmo-badge { opacity: .8; transform: scale(.78); }
+  .xw-atmo-molecule { top: 18%; right: -2%; }
+  .xw-atmo-tree { top: 40%; left: -3%; }
+  .xw-atmo-robot { top: 70%; right: -3%; }
+  .xw-atmo-sim { top: 57%; left: -3%; }
+  .xw-atmo-reason { top: 13%; left: 48%; }
+  .xw-atmo-3d { top: 82%; left: 45%; }
   .xw-research-row { grid-template-columns: 1.8rem minmax(0, 1fr); }
   .xw-row-arrow { display: none; }
   .xw-experience-row { grid-template-columns: 1fr; gap: .35rem; }

@@ -11,14 +11,14 @@ redirect_from:
 
 <div class="xinwang-page" id="top">
   <div class="xw-aurora" aria-hidden="true"></div>
-  <div class="xw-ocean" aria-hidden="true"><canvas id="xwWhale"></canvas></div>
+  <div class="xw-ocean" aria-hidden="true"><canvas id="asciiWhale"></canvas></div>
   <div class="xw-research-atmosphere" aria-hidden="true">
-    <span class="xw-atmo-icon xw-atmo-molecule"><svg viewBox="0 0 64 64"><path d="M18 19 45 13 51 42 25 51Z"/><circle cx="18" cy="19" r="5"/><circle cx="45" cy="13" r="5"/><circle cx="51" cy="42" r="5"/><circle cx="25" cy="51" r="5"/></svg></span>
-    <span class="xw-atmo-icon xw-atmo-tree"><svg viewBox="0 0 64 64"><path d="M32 52V25M32 34 20 23M32 40l14-14M32 28 39 16M25 52h14"/><path d="M20 23 14 29M20 23l2-9M46 26l5 5M46 26l2-9"/></svg></span>
-    <span class="xw-atmo-icon xw-atmo-robot"><svg viewBox="0 0 64 64"><rect x="16" y="20" width="32" height="27" rx="7"/><path d="M32 20V12M28 12h8M23 31h3M38 31h3M25 41h14M12 29v10M52 29v10"/></svg></span>
-    <span class="xw-atmo-icon xw-atmo-sim"><svg viewBox="0 0 64 64"><path d="M9 48h46M14 42l10-13 9 7 15-22M14 42v-8M24 29v-8M33 36v-9M48 14v-7"/></svg></span>
-    <span class="xw-atmo-icon xw-atmo-reason"><svg viewBox="0 0 64 64"><path d="M20 25a12 12 0 1 1 22 7c-3 3-6 5-6 10H28c0-5-3-7-6-10a12 12 0 0 1-2-7ZM28 48h9M29 53h7"/><path d="m51 12 1 5 5 1-5 1-1 5-1-5-5-1 5-1Z"/></svg></span>
-    <span class="xw-atmo-icon xw-atmo-3d"><svg viewBox="0 0 64 64"><path d="m32 9 22 13v24L32 58 10 46V22Z"/><path d="m10 22 22 13 22-13M32 35v23"/></svg></span>
+    <span class="xw-atmo-badge xw-atmo-molecule"><svg viewBox="0 0 64 64"><path d="M18 19 45 13 51 42 25 51Z"/><circle cx="18" cy="19" r="5"/><circle cx="45" cy="13" r="5"/><circle cx="51" cy="42" r="5"/><circle cx="25" cy="51" r="5"/></svg><span>MOLECULE <b>分子</b></span></span>
+    <span class="xw-atmo-badge xw-atmo-tree"><svg viewBox="0 0 64 64"><path d="M32 52V25M32 34 20 23M32 40l14-14M32 28 39 16M25 52h14"/><path d="M20 23 14 29M20 23l2-9M46 26l5 5M46 26l2-9"/></svg><span>EVOLUTION <b>演化树</b></span></span>
+    <span class="xw-atmo-badge xw-atmo-robot"><svg viewBox="0 0 64 64"><rect x="16" y="20" width="32" height="27" rx="7"/><path d="M32 20V12M28 12h8M23 31h3M38 31h3M25 41h14M12 29v10M52 29v10"/></svg><span>ROBOTICS <b>机器人</b></span></span>
+    <span class="xw-atmo-badge xw-atmo-sim"><svg viewBox="0 0 64 64"><path d="M9 48h46M14 42l10-13 9 7 15-22M14 42v-8M24 29v-8M33 36v-9M48 14v-7"/></svg><span>SIMULATION <b>仿真数据</b></span></span>
+    <span class="xw-atmo-badge xw-atmo-reason"><svg viewBox="0 0 64 64"><path d="M20 25a12 12 0 1 1 22 7c-3 3-6 5-6 10H28c0-5-3-7-6-10a12 12 0 0 1-2-7ZM28 48h9M29 53h7"/><path d="m51 12 1 5 5 1-5 1-1 5-1-5-5-1 5-1Z"/></svg><span>REASONING <b>可靠推理</b></span></span>
+    <span class="xw-atmo-badge xw-atmo-3d"><svg viewBox="0 0 64 64"><path d="m32 9 22 13v24L32 58 10 46V22Z"/><path d="m10 22 22 13 22-13M32 35v23"/></svg><span>3D WORLD <b>三维世界</b></span></span>
   </div>
 
   <div class="xw-layout">
