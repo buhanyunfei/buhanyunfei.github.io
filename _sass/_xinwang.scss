@@ -70,8 +70,7 @@ body.xinwang-body {
 .xw-research-atmosphere { position: fixed; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; }
 .xw-atmo-badge { position: absolute; display: inline-flex; align-items: center; gap: .5rem; padding: .42rem .64rem .42rem .48rem; border: 1px solid rgba(23, 41, 70, .13); border-radius: 999px; background: rgba(244, 247, 251, .58); box-shadow: 0 7px 18px rgba(23, 41, 70, .06); color: var(--xw-blue); font-family: var(--xw-mono); font-size: .52rem; letter-spacing: .08em; line-height: 1.05; opacity: .76; backdrop-filter: blur(7px); animation: xw-float 11s ease-in-out infinite; }
 .xw-atmo-badge svg { display: block; width: 30px; height: 30px; flex: 0 0 auto; fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2.2; }
-.xw-atmo-badge span { display: grid; gap: .12rem; white-space: nowrap; }
-.xw-atmo-badge b { color: var(--xw-ink); font-family: var(--xw-sans); font-size: .67rem; font-weight: 650; letter-spacing: .02em; }
+.xw-atmo-badge > .xw-atmo-label { display: block; color: var(--xw-ink); font-family: var(--xw-sans); font-size: .68rem; font-weight: 650; letter-spacing: .01em; white-space: nowrap; }
 .xw-atmo-molecule { top: 16%; right: 2%; color: #4c7fc5; animation-delay: -2s; transform: rotate(8deg); }
 .xw-atmo-tree { top: 49%; left: 2%; color: #4c9b86; animation-delay: -6s; }
 .xw-atmo-robot { top: 70%; right: 2%; color: #9b72b6; animation-delay: -4s; }
@@ -159,7 +158,6 @@ body.xinwang-body {
 .xw-fact-label { margin-bottom: .25rem; color: var(--xw-cyan); font-size: .62rem; letter-spacing: .11em; }
 
 .xw-community-section { position: relative; }
-.xw-community-section::before { content: "RECOGNITION / 社区身份"; display: block; margin-bottom: .6rem; color: var(--xw-cyan); font-family: var(--xw-mono); font-size: .62rem; letter-spacing: .14em; }
 .xw-community-lede { max-width: 58ch; margin: .2rem 0 1.6rem; color: var(--xw-muted); font-size: .95rem; }
 .xw-recognition-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .85rem; }
 .xw-recognition-card { position: relative; display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: .8rem; min-height: 106px; padding: 1rem; border: 1px solid rgba(23, 41, 70, .17); background: rgba(255, 255, 255, .62); color: var(--xw-ink); text-decoration: none; transition: transform .24s ease, border-color .24s ease, box-shadow .24s ease; }
