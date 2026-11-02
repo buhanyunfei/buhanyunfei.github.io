@@ -1,22 +1,19 @@
-# main links links
+# Main navigation
 main:
-  - title: "About Me"
+  - title: "About / 关于"
     url: "/#about-me"
 
-  - title: "News"
-    url: "/#-news"
+  - title: "Research / 研究"
+    url: "/#research"
 
-  - title: "Publications"
-    url: "/#-publications"
+  - title: "Experience / 经历"
+    url: "/#experience"
 
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
+  - title: "Selected Work / 工作"
+    url: "/#selected-work"
 
-  - title: "Educations"
-    url: "/#-educations"
+  - title: "Internship Targets / 求职方向"
+    url: "/#internship-targets"
 
-  - title: "Invited Talks"
-    url: "/#-invited-talks"
-
-  - title: "Internships"
-    url: "/#-internships"
+  - title: "Contact / 联系"
+    url: "/#contact"
