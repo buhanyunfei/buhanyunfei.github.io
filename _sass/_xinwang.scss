@@ -159,15 +159,16 @@ body.xinwang-body {
 
 .xw-community-section { position: relative; }
 .xw-community-lede { max-width: 58ch; margin: .2rem 0 1.6rem; color: var(--xw-muted); font-size: .95rem; }
-.xw-recognition-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .85rem; }
-.xw-recognition-card { position: relative; display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: .8rem; min-height: 106px; padding: 1rem; border: 1px solid rgba(23, 41, 70, .17); background: rgba(255, 255, 255, .62); color: var(--xw-ink); text-decoration: none; transition: transform .24s ease, border-color .24s ease, box-shadow .24s ease; }
+.xw-recognition-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .85rem; }
+.xw-recognition-card { position: relative; display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: 1rem; min-height: 128px; padding: 1.1rem 1.25rem; border: 1px solid rgba(23, 41, 70, .17); background: rgba(255, 255, 255, .62); color: var(--xw-ink); text-decoration: none; transition: transform .24s ease, border-color .24s ease, box-shadow .24s ease; }
 .xw-recognition-card:hover { border-color: rgba(56, 120, 201, .42); box-shadow: 0 10px 22px rgba(23, 41, 70, .1); transform: translateY(-3px); }
-.xw-recognition-card--feature { min-height: 122px; background: linear-gradient(100deg, rgba(255, 255, 255, .82), rgba(221, 146, 184, .16)); }
-.xw-community-mark { display: grid; place-items: center; width: 48px; height: 48px; border-radius: 14px; color: white; font-family: var(--xw-mono); font-size: .7rem; font-weight: 700; letter-spacing: -.04em; box-shadow: 0 7px 15px rgba(23, 41, 70, .12); }
-.xw-mark-tencent { background: linear-gradient(135deg, #3454d1, #64bfd0); font-family: "LXGW WenKai", var(--xw-sans); font-size: .72rem; }
-.xw-mark-datawhale { background: #2a9d86; }
-.xw-mark-openi { background: #eb9c61; font-family: "LXGW WenKai", var(--xw-sans); font-size: .62rem; }
-.xw-mark-paddle { background: #e34b4b; font-size: 1.1rem; }
+.xw-recognition-card--feature { background: linear-gradient(100deg, rgba(255, 255, 255, .82), rgba(221, 146, 184, .16)); }
+.xw-community-mark { display: flex; align-items: center; justify-content: center; width: 116px; height: 58px; flex: 0 0 auto; border-radius: 10px; background: transparent; color: var(--xw-ink); }
+.xw-community-mark img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.xw-mark-datawhale { width: 170px; }
+.xw-mark-tencent { width: 148px; }
+.xw-mark-openi { width: 142px; }
+.xw-mark-paddle { width: 62px; border-radius: 9px; overflow: hidden; }
 .xw-recognition-copy { display: grid; gap: .12rem; min-width: 0; }
 .xw-recognition-copy strong { color: var(--xw-ink); font-family: var(--xw-serif); font-size: .98rem; font-weight: 650; line-height: 1.2; }
 .xw-recognition-copy small { color: var(--xw-muted); font-family: var(--xw-mono); font-size: .63rem; }
@@ -217,7 +218,6 @@ body.xinwang-body {
   .xw-sidebar-bottom { margin-top: 2rem; }
   .xw-nav { flex-direction: row; flex-wrap: wrap; gap: .2rem 1.4rem; margin-top: 2rem; }
   .xw-content { padding: 3rem 0 2rem; }
-  .xw-recognition-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .xw-recognition-card--feature { grid-column: auto; }
   .xw-atmo-badge { opacity: .34; transform: scale(.82); }
   .xw-atmo-tree, .xw-atmo-sim { display: none; }
