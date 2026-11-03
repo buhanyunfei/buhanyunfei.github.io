@@ -163,12 +163,9 @@ body.xinwang-body {
 .xw-recognition-card { position: relative; display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: 1rem; min-height: 128px; padding: 1.1rem 1.25rem; border: 1px solid rgba(23, 41, 70, .17); background: rgba(255, 255, 255, .62); color: var(--xw-ink); text-decoration: none; transition: transform .24s ease, border-color .24s ease, box-shadow .24s ease; }
 .xw-recognition-card:hover { border-color: rgba(56, 120, 201, .42); box-shadow: 0 10px 22px rgba(23, 41, 70, .1); transform: translateY(-3px); }
 .xw-recognition-card--feature { background: linear-gradient(100deg, rgba(255, 255, 255, .82), rgba(221, 146, 184, .16)); }
-.xw-community-mark { display: flex; align-items: center; justify-content: center; width: 116px; height: 58px; flex: 0 0 auto; border-radius: 10px; background: transparent; color: var(--xw-ink); }
+.xw-community-mark { display: flex; align-items: center; justify-content: center; width: 58px; height: 58px; flex: 0 0 auto; padding: .25rem; border: 1px solid rgba(23, 41, 70, .1); border-radius: 12px; background: rgba(255, 255, 255, .74); box-shadow: 0 7px 15px rgba(23, 41, 70, .1); color: var(--xw-ink); box-sizing: border-box; }
 .xw-community-mark img { display: block; width: 100%; height: 100%; object-fit: contain; }
-.xw-mark-datawhale { width: 170px; }
-.xw-mark-tencent { width: 148px; }
-.xw-mark-openi { width: 142px; }
-.xw-mark-paddle { width: 62px; border-radius: 9px; overflow: hidden; }
+.xw-mark-paddle { padding: 0; overflow: hidden; }
 .xw-recognition-copy { display: grid; gap: .12rem; min-width: 0; }
 .xw-recognition-copy strong { color: var(--xw-ink); font-family: var(--xw-serif); font-size: .98rem; font-weight: 650; line-height: 1.2; }
 .xw-recognition-copy small { color: var(--xw-muted); font-family: var(--xw-mono); font-size: .63rem; }
