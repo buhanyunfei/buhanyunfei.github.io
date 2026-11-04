@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Xin Wang · 王鑫"
-description              : "Xin Wang is a PhD student at Westlake University working on LLM agents, reliable reasoning, scientific knowledge, multimodal understanding, and AI for Science applications."
+description              : "Xin Wang is a PhD student at Westlake University and an Awomo Top Intern Program intern working on agentic systems, reliable reasoning, scientific knowledge, and physical AI."
 repository               : "buhanyunfei/buhanyunfei.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Xin Wang"
   avatar           : "images/xinwang-avatar.jpg"
-  bio              : "PhD Student · LLM Agents · Reliable Reasoning"
+  bio              : "PhD Student · Agentic Systems · Reliable Reasoning"
   location         : "Hangzhou, China"
   employer         :
   pubmed           : 

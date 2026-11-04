@@ -2,7 +2,7 @@
 permalink: /
 layout: xinwang
 title: ""
-excerpt: "Xin Wang — LLM agents, reliable reasoning, scientific knowledge, and multimodal understanding."
+excerpt: "Xin Wang — agentic systems, reliable reasoning, scientific knowledge, and physical AI."
 author_profile: false
 redirect_from:
   - /about/
@@ -39,12 +39,12 @@ redirect_from:
           </div>
         </div>
 
-        <p class="xw-role" data-lang="en">LLM Agents <span>&amp;</span> Reliable Reasoning</p>
-        <p class="xw-role" data-lang="zh">大模型智能体 <span>&amp;</span> 可靠推理</p>
-        <p class="xw-tagline" data-lang="en">I study how language models learn to reason, use tools, and act over evidence-rich environments.</p>
-        <p class="xw-tagline" data-lang="zh">我研究大模型如何在证据丰富的环境中学习推理、调用工具并执行任务。</p>
-        <p class="xw-motto" data-lang="en">From knowledge to action.</p>
-        <p class="xw-motto" data-lang="zh">从知识到行动。</p>
+        <p class="xw-role" data-lang="en">Agentic Systems <span>&amp;</span> Reliable Reasoning</p>
+        <p class="xw-role" data-lang="zh">智能体系统 <span>&amp;</span> 可靠推理</p>
+        <p class="xw-tagline" data-lang="en">I build agents that plan, use tools, and improve through evidence, simulation, and feedback.</p>
+        <p class="xw-tagline" data-lang="zh">我构建能够规划、调用工具，并通过证据、仿真与反馈持续改进的智能体。</p>
+        <p class="xw-motto" data-lang="en">From worlds to knowledge to action.</p>
+        <p class="xw-motto" data-lang="zh">从世界、知识到行动。</p>
 
         <nav class="xw-nav" aria-label="Sections">
           <a href="#about" class="xw-nav-link"><span class="xw-nav-num xw-mono">01</span><span class="xw-nav-line"></span><span data-lang="en">About</span><span data-lang="zh">关于</span></a>
@@ -71,19 +71,25 @@ redirect_from:
         <header class="xw-section-head"><span class="xw-section-num xw-mono">01</span><h2 data-lang="en">About</h2><h2 data-lang="zh">关于</h2><span class="xw-section-line"></span></header>
         <div class="xw-about-grid">
           <div class="xw-prose">
-            <p data-lang="en">I am a PhD student at Westlake University working on <strong>LLM agents, reliable reasoning, and scientific knowledge</strong>.</p>
-            <p data-lang="zh">我目前是西湖大学博士研究生，主要研究<strong>大模型智能体、可靠推理与科学知识</strong>。</p>
-            <p data-lang="en">I study how models can trace the development of ideas, verify evidence, and use tools to act. AI for Science is one important domain where I test these capabilities — alongside multimodal, molecular, medical, and embodied settings.</p>
-            <p data-lang="zh">我关注模型如何追踪科学思想的发展、核验证据，并调用工具执行任务。AI for Science 是我验证这些能力的重要场景之一，同时也关注多模态、分子、医学与具身仿真等方向。</p>
+            <p data-lang="en">I am a PhD student at Westlake University and a Top Intern Program intern at Awomo, working on <strong>agentic systems, reliable reasoning, and scientific knowledge</strong>.</p>
+            <p data-lang="zh">我目前是西湖大学博士研究生，也是 Awomo Top Intern Program 实习生，主要研究<strong>智能体系统、可靠推理与科学知识</strong>。</p>
+            <p data-lang="en">I build systems that turn evidence and environments into action: THE-Tree reconstructs scientific evolution; SimForge, Unravel, and Physical RSI connect 3D worlds, rollouts, feedback, and improvement. AI for Science is an important application domain, alongside molecular, medical, and embodied settings.</p>
+            <p data-lang="zh">我构建把证据与环境转化为行动的系统：THE-Tree 重建科学演化，SimForge、Unravel 与 Physical RSI 连接三维世界、智能体 rollout、反馈与改进。AI for Science 是重要应用场景，同时覆盖分子、医学与具身智能。</p>
             <ul class="xw-chips" aria-label="Research keywords">
-              <li data-lang="en">LLM Agents</li><li data-lang="zh">大模型智能体</li><li data-lang="en">Reliable Reasoning</li><li data-lang="zh">可靠推理</li><li data-lang="en">Scientific Knowledge</li><li data-lang="zh">科学知识</li><li data-lang="en">Multimodal</li><li data-lang="zh">多模态</li><li data-lang="en">Embodied AI</li><li data-lang="zh">具身智能</li><li data-lang="en">3D / Simulation</li><li data-lang="zh">三维 / 仿真</li><li data-lang="en">AI for Science</li><li data-lang="zh">科学智能</li>
+              <li data-lang="en">Agentic Systems</li><li data-lang="zh">智能体系统</li><li data-lang="en">Reliable Reasoning</li><li data-lang="zh">可靠推理</li><li data-lang="en">Scientific Knowledge</li><li data-lang="zh">科学知识</li><li data-lang="en">Physical AI</li><li data-lang="zh">具身智能</li><li data-lang="en">3D Simulation</li><li data-lang="zh">三维仿真</li><li data-lang="en">Multimodal Evaluation</li><li data-lang="zh">多模态评测</li><li data-lang="en">AI for Science</li><li data-lang="zh">科学智能</li>
             </ul>
           </div>
           <div class="xw-facts">
-            <div class="xw-fact"><span class="xw-fact-label xw-mono" data-lang="en">NOW</span><span class="xw-fact-label xw-mono" data-lang="zh">目前</span><strong>Westlake University</strong><span data-lang="en">PhD student · Hangzhou</span><span data-lang="zh">博士研究生 · 杭州</span></div>
+            <div class="xw-fact"><span class="xw-fact-label xw-mono" data-lang="en">NOW</span><span class="xw-fact-label xw-mono" data-lang="zh">目前</span><strong><span data-lang="en">Awomo · Westlake University</span><span data-lang="zh">Awomo · 西湖大学</span></strong><span data-lang="en">Top Intern Program · PhD student</span><span data-lang="zh">Top Intern Program · 博士研究生</span></div>
             <div class="xw-fact"><span class="xw-fact-label xw-mono" data-lang="en">LINKS</span><span class="xw-fact-label xw-mono" data-lang="zh">链接</span><a href="https://scholar.google.com/citations?user=TQlMxgoAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener">Google Scholar ↗</a><a href="https://auto.lab.westlake.edu.cn/phd-xin-wang.html" target="_blank" rel="noopener"><span data-lang="en">Personal site ↗</span><span data-lang="zh">个人主页 ↗</span></a></div>
             <div class="xw-fact"><span class="xw-fact-label xw-mono" data-lang="en">COMMUNITY</span><span class="xw-fact-label xw-mono" data-lang="zh">社区</span><span data-lang="en">Tencent Dayan · Datawhale · OpenI · PPDE</span><span data-lang="zh">腾讯大衍 · Datawhale · OpenI · PPDE</span></div>
           </div>
+        </div>
+        <div class="xw-proof-strip" aria-label="Selected evidence">
+          <div><strong>88</strong><span data-lang="en">evolution trees</span><span data-lang="zh">棵演化树</span></div>
+          <div><strong>27K</strong><span data-lang="en">papers grounded</span><span data-lang="zh">篇论文</span></div>
+          <div><strong>71K</strong><span data-lang="en">fact verifications</span><span data-lang="zh">项事实验证</span></div>
+          <div><strong>5</strong><span data-lang="en">imaging modalities</span><span data-lang="zh">种医学影像模态</span></div>
         </div>
       </section>
 
@@ -102,37 +108,40 @@ redirect_from:
       <section class="xw-section" id="research">
         <header class="xw-section-head"><span class="xw-section-num xw-mono">03</span><h2 data-lang="en">Research focus</h2><h2 data-lang="zh">研究方向</h2><span class="xw-section-line"></span></header>
         <div class="xw-research-list">
-          <article class="xw-research-row"><span class="xw-row-index xw-mono">A</span><div><h3 data-lang="en">LLM agents &amp; tool use</h3><h3 data-lang="zh">大模型智能体与工具调用</h3><p data-lang="en">Planning, memory, tool use, self-improvement, and agent evaluation for systems that can reason and act.</p><p data-lang="zh">围绕规划、记忆、工具调用、自我改进与智能体评测，研究能够推理并执行任务的系统。</p></div><span class="xw-row-arrow">↗</span></article>
+          <article class="xw-research-row"><span class="xw-row-index xw-mono">A</span><div><h3 data-lang="en">Agentic systems &amp; Physical RSI</h3><h3 data-lang="zh">智能体系统与 Physical RSI</h3><p data-lang="en">Planning, tool use, simulation, rollout feedback, and recursive self-improvement for agents that learn to act.</p><p data-lang="zh">围绕规划、工具调用、仿真、rollout 反馈与递归式自我改进，研究能够学习行动的智能体。</p></div><span class="xw-row-arrow">↗</span></article>
           <article class="xw-research-row"><span class="xw-row-index xw-mono">B</span><div><h3 data-lang="en">Reliable reasoning &amp; evidence</h3><h3 data-lang="zh">可靠推理与证据验证</h3><p data-lang="en">Grounding model outputs in evidence, tracing claims, and diagnosing where reasoning fails.</p><p data-lang="zh">让模型输出建立在证据之上，追踪论断来源，并诊断推理失败的位置。</p></div><span class="xw-row-arrow">↗</span></article>
-          <article class="xw-research-row"><span class="xw-row-index xw-mono">C</span><div><h3 data-lang="en">Scientific knowledge &amp; evolution</h3><h3 data-lang="zh">科学知识与技术演化</h3><p data-lang="en">Tracing how ideas grow across papers, domains, and time, with verifiable paths instead of opaque summaries.</p><p data-lang="zh">追踪科学思想如何跨论文、领域与时间演化，用可验证的路径替代不透明的总结。</p></div><span class="xw-row-arrow">↗</span></article>
-          <article class="xw-research-row"><span class="xw-row-index xw-mono">D</span><div><h3 data-lang="en">Multimodal reasoning in science</h3><h3 data-lang="zh">科学场景中的多模态推理</h3><p data-lang="en">Molecular, medical, embodied, and simulation settings where text, images, 3D structure, and actions meet.</p><p data-lang="zh">关注分子、医学、具身与仿真场景，连接文本、图像、三维结构与行动。</p></div><span class="xw-row-arrow">↗</span></article>
+          <article class="xw-research-row"><span class="xw-row-index xw-mono">C</span><div><h3 data-lang="en">Scientific knowledge &amp; evolution</h3><h3 data-lang="zh">科学知识与技术演化</h3><p data-lang="en">THE-Tree turns literature into time-aware, citation-linked paths for verification and forecasting.</p><p data-lang="zh">THE-Tree 将论文组织成带时间与引用证据的演化路径，用于验证与趋势预测。</p></div><span class="xw-row-arrow">↗</span></article>
+          <article class="xw-research-row"><span class="xw-row-index xw-mono">D</span><div><h3 data-lang="en">Multimodal evaluation in science</h3><h3 data-lang="zh">科学场景中的多模态评测</h3><p data-lang="en">Medical-image quality, molecular grounding, and 3D scene understanding beyond single scalar scores.</p><p data-lang="zh">关注医学影像质量、分子 grounding 与三维场景理解，超越单一分数评测。</p></div><span class="xw-row-arrow">↗</span></article>
         </div>
       </section>
 
       <section class="xw-section" id="experience">
         <header class="xw-section-head"><span class="xw-section-num xw-mono">04</span><h2 data-lang="en">Experience</h2><h2 data-lang="zh">经历</h2><span class="xw-section-line"></span></header>
         <div class="xw-experience-list">
-          <article class="xw-experience-row"><div class="xw-period xw-mono"><span data-lang="en">2025 — now</span><span data-lang="zh">2025 — 至今</span></div><div><h3><span data-lang="en">Westlake University</span><span data-lang="zh">西湖大学</span></h3><p class="xw-role-small" data-lang="en">PhD student · LLM agents / reasoning</p><p class="xw-role-small" data-lang="zh">博士研究生 · 大模型智能体 / 推理</p><p data-lang="en">Agentic systems, reliable reasoning, multimodal understanding, and AI for Science applications. Advisor: Kaicheng Yu.</p><p data-lang="zh">研究智能体系统、可靠推理、多模态理解，并探索 AI for Science 应用，导师为俞凯成。</p></div></article>
-          <article class="xw-experience-row"><div class="xw-period xw-mono">2024 — 2025</div><div><h3><span data-lang="en">Shanghai AI Laboratory</span><span data-lang="zh">上海人工智能实验室</span></h3><p class="xw-role-small" data-lang="en">Researcher / algorithm intern</p><p class="xw-role-small" data-lang="zh">研究员 / 算法实习生</p><p data-lang="en">LLM knowledge bases and THE-Tree, a traceable framework for scientific verification and technology evolution.</p><p data-lang="zh">从事大语言模型知识库与 THE-Tree 研究，构建面向科学验证和技术演化的可追溯框架。</p></div></article>
-          <article class="xw-experience-row"><div class="xw-period xw-mono">2023 — 2024</div><div><h3>Roche</h3><p class="xw-role-small" data-lang="en">AI-based drug design intern</p><p class="xw-role-small" data-lang="zh">AI 药物设计实习生</p><p data-lang="en">Compound-fingerprint modeling and LangChain + GPT-4 workflows for pharmaceutical patent analysis.</p><p data-lang="zh">开发化合物指纹模型，并用 LangChain + GPT-4 提升药物专利分析效率。</p></div></article>
+          <article class="xw-experience-row"><div class="xw-period xw-mono"><span data-lang="en">Mar 2026 — Present</span><span data-lang="zh">2026 年 3 月 — 至今</span></div><div><h3>Awomo</h3><p class="xw-role-small" data-lang="en">Top Intern Program · Lead, 3D simulation data construction</p><p class="xw-role-small" data-lang="zh">Top Intern Program · 3D 仿真数据构建负责人</p><p data-lang="en">Lead SimForge and Haness pipelines for simulation-ready scenes, robot-learning demonstrations, and the Physical RSI loop connecting environments, rollouts, feedback, and improvement.</p><p data-lang="zh">负责 SimForge 与 Haness，构建可用于仿真的三维场景、机器人学习示范数据，并搭建连接环境、rollout、反馈与改进的 Physical RSI 闭环。</p></div></article>
+          <article class="xw-experience-row"><div class="xw-period xw-mono"><span data-lang="en">2025 — Present</span><span data-lang="zh">2025 — 至今</span></div><div><h3><span data-lang="en">Autolab · Westlake University</span><span data-lang="zh">西湖大学 · Autolab</span></h3><p class="xw-role-small" data-lang="en">PhD student · agentic systems / AI for Science</p><p class="xw-role-small" data-lang="zh">博士研究生 · 智能体系统 / AI for Science</p><p data-lang="en">Research on agentic systems, reliable reasoning, multimodal understanding, and scientific applications.</p><p data-lang="zh">研究智能体系统、可靠推理、多模态理解与科学应用。</p></div></article>
+          <article class="xw-experience-row"><div class="xw-period xw-mono"><span data-lang="en">Nov 2024 — 2025</span><span data-lang="zh">2024 年 11 月 — 2025 年</span></div><div><h3><span data-lang="en">Shanghai AI Laboratory</span><span data-lang="zh">上海人工智能实验室</span></h3><p class="xw-role-small" data-lang="en">Researcher · scientific knowledge and evaluation</p><p class="xw-role-small" data-lang="zh">研究员 · 科学知识与评测</p><p data-lang="en">Led THE-Tree and contributed to MedQ-Bench: 88 evolution trees over 27K papers, up to 71K fact verifications, and a medical-image benchmark spanning 5 modalities and 40+ attributes.</p><p data-lang="zh">负责 THE-Tree 并参与 MedQ-Bench：覆盖 2.7 万篇论文的 88 棵演化树、最多 7.1 万项事实验证，以及覆盖 5 种模态和 40 多项属性的医学影像评测基准。</p></div></article>
+          <article class="xw-experience-row"><div class="xw-period xw-mono"><span data-lang="en">Dec 2023 — Jun 2024</span><span data-lang="zh">2023 年 12 月 — 2024 年 6 月</span></div><div><h3>Roche</h3><p class="xw-role-small" data-lang="en">AI-based drug design intern</p><p class="xw-role-small" data-lang="zh">AI 药物设计实习生</p><p data-lang="en">Compound-fingerprint modeling and LangChain + GPT-4 workflows for pharmaceutical patent analysis.</p><p data-lang="zh">开发化合物指纹模型，并用 LangChain + GPT-4 提升药物专利分析效率。</p></div></article>
         </div>
       </section>
 
       <section class="xw-section" id="selected-work">
         <header class="xw-section-head"><span class="xw-section-num xw-mono">05</span><h2 data-lang="en">Selected work</h2><h2 data-lang="zh">代表工作</h2><span class="xw-section-line"></span></header>
         <div class="xw-work-list">
-          <article class="xw-work-row"><div class="xw-work-top"><span class="xw-work-index xw-mono">01</span><span class="xw-work-meta"><span data-lang="en">EMNLP 2026 Findings</span><span data-lang="zh">EMNLP 2026 Findings</span></span></div><h3><a href="https://aclanthology.org/2026.findings-emnlp.1831/" target="_blank" rel="noopener">THE-Tree ↗</a></h3><p data-lang="en">Tracing historical evolution to improve scientific verification and reasoning. 88 evolution trees, about 27k papers, and 71k fact verifications.</p><p data-lang="zh">通过追踪历史演化提升科学验证与推理：构建 88 棵演化树，覆盖约 2.7 万篇论文与 7.1 万项事实验证。</p></article>
-          <article class="xw-work-row"><div class="xw-work-top"><span class="xw-work-index xw-mono">02</span><span class="xw-work-meta">arXiv · 2026</span></div><h3><a href="https://arxiv.org/abs/2610.00700" target="_blank" rel="noopener">R-GroundBench ↗</a></h3><p data-lang="en">A diagnostic benchmark for R-group grounding in Markush molecular editing.</p><p data-lang="zh">面向 Markush 分子编辑中 R 基团定位的诊断型评测基准。</p></article>
-          <article class="xw-work-row"><div class="xw-work-top"><span class="xw-work-index xw-mono">03</span><span class="xw-work-meta">arXiv · 2024</span></div><h3><a href="https://arxiv.org/abs/2410.21312" target="_blank" rel="noopener">PatentAgent ↗</a></h3><p data-lang="en">An LLM-based agent for pharmaceutical patent QA, structure-image understanding, and core-compound identification.</p><p data-lang="zh">面向药物专利问答、化学结构图像理解与核心化合物识别的大模型智能体。</p></article>
-          <article class="xw-work-row"><div class="xw-work-top"><span class="xw-work-index xw-mono">04</span><span class="xw-work-meta"><span data-lang="en">Research project</span><span data-lang="zh">研究项目</span></span></div><h3><span data-lang="en">MedQ-Bench <span class="xw-plus">&amp;</span> clinical systems</span><span data-lang="zh">MedQ-Bench <span class="xw-plus">与</span> 临床系统</span></h3><p data-lang="en">Multimodal medical image retrieval and quality assessment, plus intent recognition for wound-repair workflows.</p><p data-lang="zh">医学影像检索与质量评测，以及伤口修复场景的意图识别与槽位填充。</p></article>
+          <article class="xw-work-row"><div class="xw-work-top"><span class="xw-work-index xw-mono">01</span><span class="xw-work-meta"><span data-lang="en">arXiv · 2026</span><span data-lang="zh">arXiv · 2026</span></span></div><h3><a href="https://arxiv.org/abs/2610.02274" target="_blank" rel="noopener">SimForge · Awomo-SimDataEngine ↗</a></h3><p data-lang="en">An agentic simulation-ready world pipeline connecting ISArt assets, Unravel reconstruction, SimForge text-to-scene generation, validation, and PolicyForge demonstrations.</p><p data-lang="zh">连接 ISArt 资产、Unravel 重建、SimForge 文本生成场景、验证与 PolicyForge 示范数据的智能体仿真世界系统。</p></article>
+          <article class="xw-work-row"><div class="xw-work-top"><span class="xw-work-index xw-mono">02</span><span class="xw-work-meta"><span data-lang="en">ICLR 2027 submission</span><span data-lang="zh">ICLR 2027 投稿</span></span></div><h3>RSI-CUA</h3><p data-lang="en">A Physical RSI framework for computer-use agents: environments, rollouts, feedback, and iterative improvement in an endless training ground.</p><p data-lang="zh">面向计算机使用智能体的 Physical RSI 框架：在持续训练环境中连接环境、rollout、反馈与迭代改进。</p></article>
+          <article class="xw-work-row"><div class="xw-work-top"><span class="xw-work-index xw-mono">03</span><span class="xw-work-meta"><span data-lang="en">Findings of EMNLP 2026</span><span data-lang="zh">EMNLP 2026 Findings</span></span></div><h3><a href="https://aclanthology.org/2026.findings-emnlp.1831/" target="_blank" rel="noopener">THE-Tree ↗</a></h3><p data-lang="en">Tracing historical evolution to improve scientific verification and reasoning: 88 evolution trees, 27K papers, and up to 71K fact verifications.</p><p data-lang="zh">通过追踪历史演化提升科学验证与推理：构建 88 棵演化树，覆盖 2.7 万篇论文与最多 7.1 万项事实验证。</p></article>
+          <article class="xw-work-row"><div class="xw-work-top"><span class="xw-work-index xw-mono">04</span><span class="xw-work-meta"><span data-lang="en">EMNLP 2026 Oral · Outstanding Paper Award</span><span data-lang="zh">EMNLP 2026 Oral · Outstanding Paper Award</span></span></div><h3><a href="https://arxiv.org/abs/2510.01691" target="_blank" rel="noopener">MedQ-Bench ↗</a></h3><p data-lang="en">A perception–reasoning benchmark for medical-image quality across 5 modalities and 40+ attributes, with 2,600 perception queries and 708 reasoning assessments.</p><p data-lang="zh">面向医学影像质量的感知—推理评测基准，覆盖 5 种模态、40 多项属性、2,600 个感知问题与 708 个推理评估。</p></article>
+          <article class="xw-work-row"><div class="xw-work-top"><span class="xw-work-index xw-mono">05</span><span class="xw-work-meta">arXiv · 2024</span></div><h3><a href="https://arxiv.org/abs/2410.21312" target="_blank" rel="noopener">PatentAgent ↗</a></h3><p data-lang="en">A multi-module LLM agent for patent QA, image-to-molecule extraction, and central-compound identification.</p><p data-lang="zh">面向专利问答、结构图像转分子与核心化合物识别的多模块大模型智能体。</p></article>
+          <article class="xw-work-row"><div class="xw-work-top"><span class="xw-work-index xw-mono">06</span><span class="xw-work-meta">arXiv · 2026</span></div><h3><a href="https://arxiv.org/abs/2610.00700" target="_blank" rel="noopener">R-GroundBench ↗</a></h3><p data-lang="en">A diagnostic benchmark for reliable R-group grounding in Markush molecular editing.</p><p data-lang="zh">面向 Markush 分子编辑中可靠 R 基团 grounding 的诊断型评测基准。</p></article>
         </div>
       </section>
 
       <section class="xw-section" id="internship-targets">
         <header class="xw-section-head"><span class="xw-section-num xw-mono">06</span><h2 data-lang="en">Internship targets</h2><h2 data-lang="zh">求职方向</h2><span class="xw-section-line"></span></header>
         <div class="xw-opportunity">
-          <div><span class="xw-opportunity-kicker xw-mono" data-lang="en">LOOKING FOR</span><span class="xw-opportunity-kicker xw-mono" data-lang="zh">正在寻找</span><h3 data-lang="en">Research internships where scientific problems meet strong models, agents, and engineering.</h3><h3 data-lang="zh">寻找把科学问题、基础模型、智能体与工程落地连接起来的研究型实习。</h3></div>
-          <div class="xw-opportunity-tags"><span data-lang="en">LLM post-training</span><span data-lang="zh">大模型后训练</span><span data-lang="en">Multimodal</span><span data-lang="zh">多模态</span><span data-lang="en">Agent / RL</span><span data-lang="zh">智能体 / 强化学习</span><span data-lang="en">AI for Science</span><span data-lang="zh">科学智能</span><span data-lang="en">Evaluation</span><span data-lang="zh">评测</span><span data-lang="en">AI Infra</span><span data-lang="zh">AI 基础设施</span></div>
+          <div><span class="xw-opportunity-kicker xw-mono" data-lang="en">LOOKING FOR</span><span class="xw-opportunity-kicker xw-mono" data-lang="zh">正在寻找</span><h3 data-lang="en">Research internships in agentic systems, physical AI, reliable reasoning, and scientific evaluation.</h3><h3 data-lang="zh">寻找智能体系统、具身智能、可靠推理与科学评测方向的研究型实习。</h3></div>
+          <div class="xw-opportunity-tags"><span data-lang="en">Agentic Systems</span><span data-lang="zh">智能体系统</span><span data-lang="en">Physical RSI</span><span data-lang="zh">Physical RSI</span><span data-lang="en">3D Simulation</span><span data-lang="zh">三维仿真</span><span data-lang="en">Multimodal Evaluation</span><span data-lang="zh">多模态评测</span><span data-lang="en">AI for Science</span><span data-lang="zh">科学智能</span><span data-lang="en">LLM post-training</span><span data-lang="zh">大模型后训练</span></div>
           <a class="xw-opportunity-link" href="https://github.com/buhanyunfei/buhanyunfei.github.io/blob/main/docs/internship-targets.md" target="_blank" rel="noopener"><span data-lang="en">Open the official-link watchlist</span><span data-lang="zh">查看官方入口清单</span> ↗</a>
         </div>
       </section>

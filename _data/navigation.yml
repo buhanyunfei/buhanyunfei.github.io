@@ -1,7 +1,10 @@
 # Main navigation
 main:
   - title: "About / 关于"
-    url: "/#about-me"
+    url: "/#about"
+
+  - title: "Community / 社区"
+    url: "/#community"
 
   - title: "Research / 研究"
     url: "/#research"
@@ -9,7 +12,7 @@ main:
   - title: "Experience / 经历"
     url: "/#experience"
 
-  - title: "Selected Work / 工作"
+  - title: "Selected Work / 代表工作"
     url: "/#selected-work"
 
   - title: "Internship Targets / 求职方向"

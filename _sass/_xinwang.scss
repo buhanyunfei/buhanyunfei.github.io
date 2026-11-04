@@ -156,6 +156,10 @@ body.xinwang-body {
 .xw-fact { display: grid; gap: .15rem; padding: 1rem 0; border-bottom: 1px solid var(--xw-line); color: var(--xw-muted); font-size: .78rem; }
 .xw-fact strong { color: var(--xw-ink); font-family: var(--xw-serif); font-size: 1.02rem; font-weight: 600; }
 .xw-fact-label { margin-bottom: .25rem; color: var(--xw-cyan); font-size: .62rem; letter-spacing: .11em; }
+.xw-proof-strip { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .75rem; margin-top: 2rem; padding: 1rem 0; border-top: 1px solid var(--xw-line); border-bottom: 1px solid var(--xw-line); }
+.xw-proof-strip div { display: grid; gap: .15rem; }
+.xw-proof-strip strong { color: var(--xw-blue); font-family: var(--xw-serif); font-size: 1.5rem; font-weight: 600; line-height: 1; }
+.xw-proof-strip span { color: var(--xw-muted); font-family: var(--xw-mono); font-size: .62rem; line-height: 1.35; }
 
 .xw-community-section { position: relative; }
 .xw-community-lede { max-width: 58ch; margin: .2rem 0 1.6rem; color: var(--xw-muted); font-size: .95rem; }
@@ -227,6 +231,7 @@ body.xinwang-body {
   .xw-name { font-size: 2.2rem; }
   .xw-role { font-size: 1.05rem; }
   .xw-about-grid { grid-template-columns: 1fr; gap: 2rem; }
+  .xw-proof-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .xw-recognition-grid { grid-template-columns: 1fr; }
   .xw-recognition-card--feature { grid-column: auto; }
   .xw-ocean { opacity: .3; }
