@@ -10,13 +10,13 @@ The primary audiences are (1) research collaborators, advisors, and reviewers an
 
 > PhD student at Westlake University working on AI for Science, scientific agents, multimodal reasoning, and reliable evaluation.
 
-The public page will use only verifiable facts from the supplied resume and public OpenReview/Tencent profile. It will omit the resume phone number and will not claim a submission is accepted unless a public source clearly says so. The Shanghai AI Lab timeline will be written as `2024–2025` on the public page to match OpenReview and the Tencent profile; the month-level conflict with the resume remains a user-confirmation item.
+The public page will use only verifiable facts from the supplied resume and public OpenReview/Tencent profile. It will omit the resume phone number and will not claim a submission is accepted unless a public source clearly says so. The Shanghai AI Lab timeline is user-confirmed as November 2024 through February 2026.
 
 ## Information architecture
 
 1. **Hero / About** — name, bilingual title, one-sentence positioning, contact buttons, and an “Open to research internships and collaborations” status.
 2. **Research Focus** — four groups: scientific discovery and evidence verification; scientific agents and retrieval; molecular/medical multimodal reasoning; agentic systems, RL, and evaluation.
-3. **Experience** — Westlake University PhD (2025–present), Shanghai AI Laboratory (2024–2025), Roche AI-based drug-design internship (2023–2024), and community/open-source contributions.
+3. **Experience** — Westlake University PhD (2025–present), Shanghai AI Laboratory (November 2024–February 2026), Roche AI-based drug-design internship (2023–2024), and community/open-source contributions.
 4. **Selected Work** — THE-Tree, PatentAgent, R-GroundBench, MedQ-Bench, and the clinical medical intelligent information system. Each item carries an accurate status label such as Findings EMNLP 2026, arXiv, or submission.
 5. **Education & Recognition** — Westlake PhD, ECUST undergraduate degree, CRAIC national first prize, and verified community memberships.
 6. **Internship Targets** — a concise public block describing target role families; detailed, dated links live in `docs/internship-targets.md` so the homepage does not become stale.

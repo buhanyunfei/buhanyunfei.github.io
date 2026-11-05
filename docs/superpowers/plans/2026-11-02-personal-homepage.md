@@ -40,7 +40,7 @@ Run `git add _config.yml _data/navigation.yml run_server.sh && git commit -m "ch
 
 - [ ] **Step 1: Replace all template content with verified profile copy**
 
-Write the hero, research focus cards, timeline, selected work, education/recognition, internship target summary, and contact sections from the approved design. Use only the confirmed facts: Westlake PhD 2025–present; Shanghai AI Lab 2024–2025; Roche 2023–2024; ECUST 2020–2024; THE-Tree Findings EMNLP 2026 Poster; R-GroundBench and PatentAgent arXiv records; MedQ-Bench and clinical medical information system as research work.
+Write the hero, research focus cards, timeline, selected work, education/recognition, internship target summary, and contact sections from the approved design. Use only the confirmed facts: Westlake PhD 2025–present; Shanghai AI Lab November 2024–February 2026; Roche 2023–2024; ECUST 2020–2024; THE-Tree Findings EMNLP 2026 Poster; R-GroundBench and PatentAgent arXiv records; MedQ-Bench and clinical medical information system as research work.
 
 - [ ] **Step 2: Add bilingual content attributes**
 
