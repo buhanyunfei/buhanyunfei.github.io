@@ -6,6 +6,9 @@ main:
   - title: "Community / 社区"
     url: "/#community"
 
+  - title: "Education & Culture / 教育与文化"
+    url: "/#education-culture"
+
   - title: "Research / 研究"
     url: "/#research"
 

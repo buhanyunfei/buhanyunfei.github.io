@@ -170,6 +170,12 @@ body.xinwang-body {
 .xw-recognition-copy strong { color: var(--xw-ink); font-family: var(--xw-serif); font-size: .98rem; font-weight: 650; line-height: 1.2; }
 .xw-recognition-copy small { color: var(--xw-muted); font-family: var(--xw-mono); font-size: .63rem; }
 .xw-recognition-arrow { position: absolute; top: .65rem; right: .75rem; color: var(--xw-cyan); font-size: 1rem; }
+.xw-practice-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .85rem; }
+.xw-practice-card { min-height: 190px; padding: 1.25rem; border: 1px solid rgba(23, 41, 70, .15); background: rgba(255, 255, 255, .52); }
+.xw-practice-card--wide { grid-column: span 2; }
+.xw-practice-kicker { display: block; margin-bottom: .55rem; color: var(--xw-cyan); font-size: .63rem; letter-spacing: .1em; }
+.xw-practice-card h3 { margin: 0 0 .55rem; color: var(--xw-ink); font-family: var(--xw-serif); font-size: 1.1rem; font-weight: 600; line-height: 1.2; }
+.xw-practice-card p { max-width: 62ch; margin: 0; color: var(--xw-muted); font-size: .84rem; }
 
 .xw-research-list, .xw-experience-list, .xw-work-list { border-top: 1px solid var(--xw-line); }
 .xw-research-row, .xw-experience-row, .xw-work-row { display: grid; grid-template-columns: 2.5rem minmax(0, 1fr) auto; gap: 1rem; padding: 1.2rem 0; border-bottom: 1px solid var(--xw-line); transition: padding .25s ease, background .25s ease; }
@@ -228,6 +234,8 @@ body.xinwang-body {
   .xw-role { font-size: 1.05rem; }
   .xw-about-grid { grid-template-columns: 1fr; gap: 2rem; }
   .xw-recognition-grid { grid-template-columns: 1fr; }
+  .xw-practice-grid { grid-template-columns: 1fr; }
+  .xw-practice-card--wide { grid-column: auto; }
   .xw-recognition-card--feature { grid-column: auto; }
   .xw-ocean { opacity: .3; }
   .xw-atmo-badge { opacity: .22; transform: scale(.68); }

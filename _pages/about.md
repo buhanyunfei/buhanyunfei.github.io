@@ -49,10 +49,11 @@ redirect_from:
         <nav class="xw-nav" aria-label="Sections">
           <a href="#about" class="xw-nav-link"><span class="xw-nav-num xw-mono">01</span><span class="xw-nav-line"></span><span data-lang="en">About</span><span data-lang="zh">关于</span></a>
           <a href="#community" class="xw-nav-link"><span class="xw-nav-num xw-mono">02</span><span class="xw-nav-line"></span><span data-lang="en">Community</span><span data-lang="zh">社区</span></a>
-          <a href="#research" class="xw-nav-link"><span class="xw-nav-num xw-mono">03</span><span class="xw-nav-line"></span><span data-lang="en">Research</span><span data-lang="zh">研究方向</span></a>
-          <a href="#experience" class="xw-nav-link"><span class="xw-nav-num xw-mono">04</span><span class="xw-nav-line"></span><span data-lang="en">Experience</span><span data-lang="zh">经历</span></a>
-          <a href="#selected-work" class="xw-nav-link"><span class="xw-nav-num xw-mono">05</span><span class="xw-nav-line"></span><span data-lang="en">Selected work</span><span data-lang="zh">代表工作</span></a>
-          <a href="#internship-targets" class="xw-nav-link"><span class="xw-nav-num xw-mono">06</span><span class="xw-nav-line"></span><span data-lang="en">Internship targets</span><span data-lang="zh">求职方向</span></a>
+          <a href="#education-culture" class="xw-nav-link"><span class="xw-nav-num xw-mono">03</span><span class="xw-nav-line"></span><span data-lang="en">Education &amp; culture</span><span data-lang="zh">教育与文化</span></a>
+          <a href="#research" class="xw-nav-link"><span class="xw-nav-num xw-mono">04</span><span class="xw-nav-line"></span><span data-lang="en">Research</span><span data-lang="zh">研究方向</span></a>
+          <a href="#experience" class="xw-nav-link"><span class="xw-nav-num xw-mono">05</span><span class="xw-nav-line"></span><span data-lang="en">Experience</span><span data-lang="zh">经历</span></a>
+          <a href="#selected-work" class="xw-nav-link"><span class="xw-nav-num xw-mono">06</span><span class="xw-nav-line"></span><span data-lang="en">Selected work</span><span data-lang="zh">代表工作</span></a>
+          <a href="#internship-targets" class="xw-nav-link"><span class="xw-nav-num xw-mono">07</span><span class="xw-nav-line"></span><span data-lang="en">Internship targets</span><span data-lang="zh">求职方向</span></a>
         </nav>
       </div>
 
@@ -76,7 +77,7 @@ redirect_from:
             <p data-lang="en">I build systems that turn evidence and environments into action: THE-Tree reconstructs scientific evolution; SimForge, Unravel, and Physical RSI connect 3D worlds, rollouts, feedback, and improvement. AI for Science is an important application domain, alongside molecular, medical, and embodied settings.</p>
             <p data-lang="zh">我构建把证据与环境转化为行动的系统：THE-Tree 重建科学演化，SimForge、Unravel 与 Physical RSI 连接三维世界、智能体 rollout、反馈与改进。AI for Science 是重要应用场景，同时覆盖分子、医学与具身智能。</p>
             <ul class="xw-chips" aria-label="Research keywords">
-              <li data-lang="en">Agentic Systems</li><li data-lang="zh">智能体系统</li><li data-lang="en">Reliable Reasoning</li><li data-lang="zh">可靠推理</li><li data-lang="en">Scientific Knowledge</li><li data-lang="zh">科学知识</li><li data-lang="en">Physical AI</li><li data-lang="zh">具身智能</li><li data-lang="en">3D Simulation</li><li data-lang="zh">三维仿真</li><li data-lang="en">Multimodal Evaluation</li><li data-lang="zh">多模态评测</li><li data-lang="en">AI for Science</li><li data-lang="zh">科学智能</li>
+              <li data-lang="en">Agentic Systems</li><li data-lang="zh">智能体系统</li><li data-lang="en">Reliable Reasoning</li><li data-lang="zh">可靠推理</li><li data-lang="en">Scientific Knowledge</li><li data-lang="zh">科学知识</li><li data-lang="en">Physical AI</li><li data-lang="zh">具身智能</li><li data-lang="en">3D Simulation</li><li data-lang="zh">三维仿真</li><li data-lang="en">Multimodal Evaluation</li><li data-lang="zh">多模态评测</li><li data-lang="en">AI for Science</li><li data-lang="zh">科学智能</li><li data-lang="en">Cross-disciplinary Practice</li><li data-lang="zh">跨界实践</li><li data-lang="en">AI for Education</li><li data-lang="zh">AI 教育</li><li data-lang="en">Cultural Inquiry</li><li data-lang="zh">文化探究</li><li data-lang="en">Community Organizing</li><li data-lang="zh">社群组织</li><li data-lang="en">Public-interest Technology</li><li data-lang="zh">公益科技</li>
             </ul>
           </div>
           <div class="xw-facts">
@@ -99,8 +100,19 @@ redirect_from:
         </div>
       </section>
 
+      <section class="xw-section" id="education-culture">
+        <header class="xw-section-head"><span class="xw-section-num xw-mono">03</span><h2 data-lang="en">Beyond research</h2><h2 data-lang="zh">科研之外</h2><span class="xw-section-line"></span></header>
+        <p class="xw-community-lede" data-lang="en">I care about how technical knowledge travels across communities. My education and cultural work connects people, institutions, and local contexts.</p>
+        <p class="xw-community-lede" data-lang="zh">我也关注知识如何进入真实的教育与文化场景，通过连接个人、机构与地方社区，探索教育、文化与公益科技的可能性。</p>
+        <div class="xw-practice-grid">
+          <article class="xw-practice-card xw-practice-card--wide"><span class="xw-practice-kicker xw-mono" data-lang="en">TEACHING &amp; EDUCATION</span><span class="xw-practice-kicker xw-mono" data-lang="zh">支教与教育</span><h3 data-lang="en">Jingmai Mountain · Education outreach</h3><h3 data-lang="zh">景迈山 · 教育实践</h3><p data-lang="en">During a visit to Jingmai Mountain in Yunnan, I noticed local education needs and initiated contact with Zhejiang University's Xinghuochao volunteer teaching team. I coordinated with local government, entrepreneurs, and villagers to arrange teaching spaces, accommodation, and local support, while exploring how AI for Education could serve remote communities.</p><p data-lang="zh">在云南景迈山旅行期间关注到当地教育需求后，我主动联系浙大星火潮支教团队，并协调当地政府、企业家与村民，落实授课场地、住宿和在地支持，同时探索 AI for Education 服务边远地区的可能性。我也尝试联系西湖大学科教团，寻找更长期的教育合作路径。</p></article>
+          <article class="xw-practice-card"><span class="xw-practice-kicker xw-mono" data-lang="en">CULTURAL COMMUNICATION</span><span class="xw-practice-kicker xw-mono" data-lang="zh">文化交流</span><h3 data-lang="en">Dunhuang · Humanities on campus</h3><h3 data-lang="zh">敦煌 · 校园人文实践</h3><p data-lang="en">Through the Future Humanity Institute and personal outreach, I invited a Dunhuang researcher and teacher, Shi Laoshi, to engage with Westlake University and explore Dunhuang culture, humanities, and nature.</p><p data-lang="zh">我通过未来人类研究院及个人联系，邀请敦煌石老师走进西湖大学，围绕敦煌文化、人文与自然展开交流和深入探究。</p></article>
+          <article class="xw-practice-card"><span class="xw-practice-kicker xw-mono" data-lang="en">CULTURAL INQUIRY</span><span class="xw-practice-kicker xw-mono" data-lang="zh">文化探究</span><h3 data-lang="en">Confucianism · Buddhism · Taoism</h3><h3 data-lang="zh">儒 · 释 · 道</h3><p data-lang="en">I am deeply interested in Chinese traditional culture, especially the dialogue among Confucianism, Buddhism, and Taoism. This curiosity shapes how I think about education, technology, and the relationship between people and place.</p><p data-lang="zh">我长期关注中国传统文化，尤其是儒、释、道三家的思想脉络与彼此对话。这种文化探究也影响我对教育、技术以及人与地方关系的理解。</p></article>
+        </div>
+      </section>
+
       <section class="xw-section" id="research">
-        <header class="xw-section-head"><span class="xw-section-num xw-mono">03</span><h2 data-lang="en">Research focus</h2><h2 data-lang="zh">研究方向</h2><span class="xw-section-line"></span></header>
+        <header class="xw-section-head"><span class="xw-section-num xw-mono">04</span><h2 data-lang="en">Research focus</h2><h2 data-lang="zh">研究方向</h2><span class="xw-section-line"></span></header>
         <div class="xw-research-list">
           <article class="xw-research-row"><span class="xw-row-index xw-mono">A</span><div><h3 data-lang="en">Agentic systems &amp; Physical RSI</h3><h3 data-lang="zh">智能体系统与 Physical RSI</h3><p data-lang="en">Planning, tool use, simulation, rollout feedback, and recursive self-improvement for agents that learn to act.</p><p data-lang="zh">围绕规划、工具调用、仿真、rollout 反馈与递归式自我改进，研究能够学习行动的智能体。</p></div><span class="xw-row-arrow">↗</span></article>
           <article class="xw-research-row"><span class="xw-row-index xw-mono">B</span><div><h3 data-lang="en">Reliable reasoning &amp; evidence</h3><h3 data-lang="zh">可靠推理与证据验证</h3><p data-lang="en">Grounding model outputs in evidence, tracing claims, and diagnosing where reasoning fails.</p><p data-lang="zh">让模型输出建立在证据之上，追踪论断来源，并诊断推理失败的位置。</p></div><span class="xw-row-arrow">↗</span></article>
@@ -110,7 +122,7 @@ redirect_from:
       </section>
 
       <section class="xw-section" id="experience">
-        <header class="xw-section-head"><span class="xw-section-num xw-mono">04</span><h2 data-lang="en">Experience</h2><h2 data-lang="zh">经历</h2><span class="xw-section-line"></span></header>
+        <header class="xw-section-head"><span class="xw-section-num xw-mono">05</span><h2 data-lang="en">Experience</h2><h2 data-lang="zh">经历</h2><span class="xw-section-line"></span></header>
         <div class="xw-experience-list">
           <article class="xw-experience-row"><div class="xw-period xw-mono"><span data-lang="en">Mar 2026 — Present</span><span data-lang="zh">2026 年 3 月 — 至今</span></div><div><h3>Awomo</h3><p class="xw-role-small" data-lang="en">Top Intern Program · Lead, 3D simulation data construction</p><p class="xw-role-small" data-lang="zh">Top Intern Program · 3D 仿真数据构建负责人</p><p data-lang="en">Lead SimForge and Haness pipelines for simulation-ready scenes, robot-learning demonstrations, and the Physical RSI loop connecting environments, rollouts, feedback, and improvement.</p><p data-lang="zh">负责 SimForge 与 Haness，构建可用于仿真的三维场景、机器人学习示范数据，并搭建连接环境、rollout、反馈与改进的 Physical RSI 闭环。</p></div></article>
           <article class="xw-experience-row"><div class="xw-period xw-mono"><span data-lang="en">2025 — Present</span><span data-lang="zh">2025 — 至今</span></div><div><h3><span data-lang="en">Autolab · Westlake University</span><span data-lang="zh">西湖大学 · Autolab</span></h3><p class="xw-role-small" data-lang="en">PhD student · agentic systems / AI for Science</p><p class="xw-role-small" data-lang="zh">博士研究生 · 智能体系统 / AI for Science</p><p data-lang="en">Research on agentic systems, reliable reasoning, multimodal understanding, and scientific applications.</p><p data-lang="zh">研究智能体系统、可靠推理、多模态理解与科学应用。</p></div></article>
@@ -120,7 +132,7 @@ redirect_from:
       </section>
 
       <section class="xw-section" id="selected-work">
-        <header class="xw-section-head"><span class="xw-section-num xw-mono">05</span><h2 data-lang="en">Selected work</h2><h2 data-lang="zh">代表工作</h2><span class="xw-section-line"></span></header>
+        <header class="xw-section-head"><span class="xw-section-num xw-mono">06</span><h2 data-lang="en">Selected work</h2><h2 data-lang="zh">代表工作</h2><span class="xw-section-line"></span></header>
         <div class="xw-work-list">
           <article class="xw-work-row"><div class="xw-work-top"><span class="xw-work-index xw-mono">01</span><span class="xw-work-meta"><span data-lang="en">arXiv · 2026</span><span data-lang="zh">arXiv · 2026</span></span></div><h3><a href="https://arxiv.org/abs/2610.02274" target="_blank" rel="noopener">SimForge · Awomo-SimDataEngine ↗</a></h3><p data-lang="en">An agentic simulation-ready world pipeline connecting ISArt assets, Unravel reconstruction, SimForge text-to-scene generation, validation, and PolicyForge demonstrations.</p><p data-lang="zh">连接 ISArt 资产、Unravel 重建、SimForge 文本生成场景、验证与 PolicyForge 示范数据的智能体仿真世界系统。</p></article>
           <article class="xw-work-row"><div class="xw-work-top"><span class="xw-work-index xw-mono">02</span><span class="xw-work-meta"><span data-lang="en">ICLR 2027 submission</span><span data-lang="zh">ICLR 2027 投稿</span></span></div><h3>RSI-CUA</h3><p data-lang="en">A Physical RSI framework for computer-use agents: environments, rollouts, feedback, and iterative improvement in an endless training ground.</p><p data-lang="zh">面向计算机使用智能体的 Physical RSI 框架：在持续训练环境中连接环境、rollout、反馈与迭代改进。</p></article>
@@ -132,7 +144,7 @@ redirect_from:
       </section>
 
       <section class="xw-section" id="internship-targets">
-        <header class="xw-section-head"><span class="xw-section-num xw-mono">06</span><h2 data-lang="en">Internship targets</h2><h2 data-lang="zh">求职方向</h2><span class="xw-section-line"></span></header>
+        <header class="xw-section-head"><span class="xw-section-num xw-mono">07</span><h2 data-lang="en">Internship targets</h2><h2 data-lang="zh">求职方向</h2><span class="xw-section-line"></span></header>
         <div class="xw-opportunity">
           <div><span class="xw-opportunity-kicker xw-mono" data-lang="en">LOOKING FOR</span><span class="xw-opportunity-kicker xw-mono" data-lang="zh">正在寻找</span><h3 data-lang="en">Research internships in agentic systems, physical AI, reliable reasoning, and scientific evaluation.</h3><h3 data-lang="zh">寻找智能体系统、具身智能、可靠推理与科学评测方向的研究型实习。</h3></div>
           <div class="xw-opportunity-tags"><span data-lang="en">Agentic Systems</span><span data-lang="zh">智能体系统</span><span data-lang="en">Physical RSI</span><span data-lang="zh">Physical RSI</span><span data-lang="en">3D Simulation</span><span data-lang="zh">三维仿真</span><span data-lang="en">Multimodal Evaluation</span><span data-lang="zh">多模态评测</span><span data-lang="en">AI for Science</span><span data-lang="zh">科学智能</span><span data-lang="en">LLM post-training</span><span data-lang="zh">大模型后训练</span></div>
@@ -141,7 +153,7 @@ redirect_from:
       </section>
 
       <footer class="xw-footer" id="contact">
-        <div><span class="xw-footer-label xw-mono"><span data-lang="en">07 / CONTACT</span><span data-lang="zh">07 / 联系</span></span><h2 data-lang="en">Let’s make scientific intelligence more trustworthy.</h2><h2 data-lang="zh">让科学智能更可靠。</h2></div>
+        <div><span class="xw-footer-label xw-mono"><span data-lang="en">08 / CONTACT</span><span data-lang="zh">08 / 联系</span></span><h2 data-lang="en">Let’s make scientific intelligence more trustworthy.</h2><h2 data-lang="zh">让科学智能更可靠。</h2></div>
         <div class="xw-footer-links"><a href="mailto:buhangyunfei@gmail.com">buhangyunfei@gmail.com</a><a href="https://github.com/buhanyunfei" target="_blank" rel="noopener">GitHub ↗</a></div>
       </footer>
     </main>
